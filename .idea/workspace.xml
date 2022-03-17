@@ -20,8 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a84814c1-abdd-474e-b8b9-7a8e5f998fa4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/www/assets/staj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/assets/stajinverse.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
     </list>
@@ -79,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1647505473793</updated>
       <workItem from="1647505475825" duration="34000" />
-      <workItem from="1647505648146" duration="4301000" />
+      <workItem from="1647505648146" duration="4551000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouts de la structure de base">
       <created>1647505838701</created>
@@ -88,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647505838701</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ajout du header et du footer de l'accueil">
+      <created>1647510943068</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647510943068</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,7 +113,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Ajouts de la structure de base" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajouts de la structure de base" />
+    <MESSAGE value="Ajout du header et du footer de l'accueil" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout du header et du footer de l'accueil" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="64" width="597" height="735" key="find.popup" timestamp="1647508698152">
