@@ -7,56 +7,64 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/bd63cdcb8f.js" crossorigin="anonymous"></script>
 </head>
-<body>
-<header class="p-3 bg-dark text-white">
+
+<header class="p-3 bg-dark text-white ">
     <div class="container">
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
                 <img src="assets/staj.png" alt="logo" class="bi me-4" height="32">
             </a>
 
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="#" class="nav-link px-2 text-white">Entreprises</a></li>
-                <li><a href="#" class="nav-link px-2 text-white">À propos</a></li>
-                <li><a href="#" class="nav-link px-2 text-white">Contact</a></li>
+                <li><a href="entreprise.html" class="nav-link px-2 text-white">Entreprises</a></li>
+                <li><a href="Contact.html" class="nav-link px-2 text-white">Contact</a></li>
+                <li><a href="aPropos.html" class="nav-link px-2 text-white">À propos</a></li>
             </ul>
 
             <div class="text-end">
                 <button type="button" class="btn btn-outline-light me-2">Connection</button>
-                <button type="button" class="btn btn-warning">Inscription</button>
             </div>
         </div>
     </div>
 </header>
 <!-- Contenu du site -->
-<main>
+<body>
+    <div class="container mb-3 mt-5 pt-3" >
+        <h1 class="mb-3">Contact</h1>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia metus vel orci blandit, eget commodo libero auctor. Pellentesque tristique libero leo, quis cursus lorem finibus id. In enim nibh, vehicula sit amet rutrum id, dictum sit amet nulla. Nunc ac dolor lacus. Nunc pharetra rhoncus mi imperdiet accumsan. Cras eget nunc magna. Integer sed mauris rutrum libero efficitur semper ac quis nisl. Nullam accumsan dolor fringilla turpis tempor, sed fermentum neque facilisis. Donec consectetur metus quis interdum vulputate. Mauris molestie enim quis arcu sollicitudin eleifend. Maecenas accumsan turpis ex, vel laoreet felis fringilla vitae. Maecenas a dapibus tortor, vitae rhoncus turpis.</p>
+            </div>
 
-    <h2>Formulaire de contact</h2>
-    <form class="row g-3">
-        <div class="col-4 col-md-4 col-lg-4 col-sm-12">
-            <label for="email" class="form-label">E-mail</label>
-            <input type="email" name="email" class="form-control" id="email" placeholder="xyz@exemple.fr">
-        </div>
-        <div class="col-4 col-md-4 col-lg-4 col-sm-12">
-            <label for="Nom" class="form-label">Nom</label>
-            <input type="text" name="nom" class="form-control" id="Nom" placeholder="Dupont">
-        </div>
-        <div class="col-4 col-md-4 col-lg-4 col-sm-12">
-            <label for="inputAddress2" class="form-label">Prenom</label>
-            <input type="text" name="Prenom" class="form-control" id="inputAddress2" placeholder="Michelle">
-        </div>
-        <div class="text-center">
-        <textarea rows="4" cols="50" placeholder="Votre message"></textarea>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <fieldset class="">
+                <form>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="email" placeholder="xyz@exemple.fr">
+                        <label for="email">Adresse email</label>
 
-        </div>
-        <div class="text-center">
-            <button type="submit" class="btn btn-primary">Envoyer</button>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" name="nom" class="form-control" id="Nom" placeholder="Dupont" autocomplete="name">
+                        <label for="Nom">Nom complet</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" id="textarea" placeholder="Votre message" maxlength="400"></textarea>
+                        <label for="textarea">Texte</label>
 
-        </div>
-        </form>
-</main>
+                    </div>
 
-<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top fixed-bottom mb-0">
+
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </form>
+                </fieldset>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 mb-0 mt-5 border-top bg-dark text-white fixed-bottom">
     <div class="col-md-4 d-flex align-items-center ms-4">
         <span class="text-muted">&copy; 2021 le stage là</span>
     </div>
@@ -71,5 +79,4 @@
 
 
 
-</body>
 </html>
