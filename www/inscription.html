@@ -10,48 +10,157 @@
     <link rel="stylesheet" href="index.css">
 </head>
 
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/staj.png" alt="logo" height="24">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li><a href="entreprise.html" class="nav-link px-2 text-light">Entreprises</a></li>
+                <li><a href="Contact.html" class="nav-link px-2 text-light">Contact</a></li>
+                <li><a href="aPropos.html" class="nav-link px-2 text-light">À propos</a></li>
+            </ul>
+            <button type="button" class="btn btn-warning text-dark me-2">Connection</button>
+        </div>
+    </div>
+</nav>
+
+
 <body>
-<header>
-    <div style="position: absolute; top: 30px; left: 30px;">
-        <a href="Acceuil" style="color:black;"><i class="fa-solid fa-angle-left"></i></a>
-    </div>
-</header>
+<h1>Inscription :</h1>
+<div class="d-flex justify-content-center container">
 
-<form>
-    <h1>Inscription</h1>
-    <div>
-        <label>Nom</label><br/>
-        <input type="text" placeholder="Entrer un nom"/>
-    </div>
-    <div>
-        <label>Prénom</label><br/>
-        <input type="text" placeholder="Entrer un prénom"/>
-    </div>
-    <div>
-        <label>Rôle</label><br/>
-        <select id="role" >
-            <option>Choisir un rôle</option>
-            <option>Etudiant</option>
-            <option>Pilote</option>
-            <option>Délégué</option>
-            <option>Administrateur</option>
-        </select>
-    </div>
-    <div>
-        <label>Centre</label><br/>
-        <input type="text" placeholder="Entrer le centre"/>
-    </div>
-    <div>
-        <label>Promotion</label><br/>
-        <input type="text" placeholder="Entrez la promotion">
-    </div>
-    <div>
-        <label>Permissions <a href="Assignation des droits">ici</a></label><br/>
-    </div>
+    <div class="row">
+        <div class="col-4">
+            <form>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="nom" placeholder="Dupont">
+                    <label for="nom">Nom</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="prenom" placeholder="Michelle">
+                    <label for="prenom">Prénom</label>
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="promotion">A</span>
+                    <input type="number" class="form-control" placeholder="promotion" aria-label="promotion" aria-describedby="promotion" min="1" max="5">
+                </div>
+                <div class="form-floating mb-3">
+                    <select class="form-select" id="centre">
+                        <option>Choisir un centre</option>
+                        <option>Strasbourg</option>
+                        <option>Toulouse</option>
+                        <option>Nanterre</option>
+                        <option>Pau</option>
+                    </select>
+                    <label for="centre">Centre</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <select class="form-select" id="role">
+                        <option>Choisir un rôle</option>
+                        <option>Etudiant</option>
+                        <option>Pilote</option>
+                        <option>Délégué</option>
+                        <option>Administrateur</option>
+                    </select>
+                    <label for="role">Role</label>
+                </div>
+                <button type="submit" class="btn btn-warning">Envoyer</button>
 
-    <input type="submit" value="Inscrire"/>
-</form>
-<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            </form>
+        </div>
+        <div class="col-2 p-0">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="" id="perm1">
+                <label class="form-check-label" for="perm1">
+                    Default checkbox
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="" id="perm1">
+                <label class="form-check-label" for="perm1">
+                    Default checkbox
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="" id="perm1">
+                <label class="form-check-label" for="perm1">
+                    Default checkbox
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="" id="perm1">
+                <label class="form-check-label" for="perm1">
+                    Default checkbox
+                </label>
+            </div>
+        </div>`
+
+        <div class="col-2 p-0">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="" id="perm1">
+                <label class="form-check-label" for="perm1">
+                    Default checkbox
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="" id="perm1">
+                <label class="form-check-label" for="perm1">
+                    Default checkbox
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="" id="perm1">
+                <label class="form-check-label" for="perm1">
+                    Default checkbox
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="" id="perm1">
+                <label class="form-check-label" for="perm1">
+                    Default checkbox
+                </label>
+            </div>
+        </div>
+
+        <div class="col-2 p-0">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="" id="perm1">
+                <label class="form-check-label" for="perm1">
+                    Default checkbox
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="" id="perm1">
+                <label class="form-check-label" for="perm1">
+                    Default checkbox
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="" id="perm1">
+                <label class="form-check-label" for="perm1">
+                    Default checkbox
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="" id="perm1">
+                <label class="form-check-label" for="perm1">
+                    Default checkbox
+                </label>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 mb-0 mt-5 border-top bg-dark text-white">
     <div class="col-md-4 d-flex align-items-center ms-4">
         <span class="text-muted">&copy; 2021 le stage là</span>
     </div>
@@ -62,6 +171,4 @@
         <li class="ms-3"><a class="text-muted" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="fa-brands fa-facebook-f"></i></a></li>
     </ul>
 </footer>
-</body>
-
 </html>
