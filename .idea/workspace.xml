@@ -20,8 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a84814c1-abdd-474e-b8b9-7a8e5f998fa4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/www/Contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/aPropos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/assets/happyIntern.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/loremIpsum.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/Contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +44,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="26VOpurWufaaradaCce5OtLb40h" />
   <component name="ProjectLevelVcsManager">
@@ -55,7 +58,6 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -64,6 +66,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -82,7 +85,6 @@
       <updated>1647505473793</updated>
       <workItem from="1647505475825" duration="34000" />
       <workItem from="1647505648146" duration="4551000" />
-      <workItem from="1647592228799" duration="6570000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouts de la structure de base">
       <created>1647505838701</created>
@@ -98,7 +100,42 @@
       <option name="project" value="LOCAL" />
       <updated>1647510943068</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finition de la page d'acceuil">
+      <created>1647609520939</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647609520939</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Finition de la page d'acceuil">
+      <created>1647610053751</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647610053751</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Finition de la page d'acceuil">
+      <created>1647610232130</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1647610232130</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ajout des pages de gestion des droits">
+      <created>1647610425774</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1647610425774</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Ajout des différentes redirections dans le header + mise en forme de la page Contact.html">
+      <created>1647617371706</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1647617371706</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,9 +156,20 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Ajouts de la structure de base" />
     <MESSAGE value="Ajout du header et du footer de l'accueil" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout du header et du footer de l'accueil" />
+    <MESSAGE value="Finition de la page d'acceuil" />
+    <MESSAGE value="ajout des pages de gestion des droits" />
+    <MESSAGE value="Ajout des différentes redirections dans le header + mise en forme de la page Contact.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout des différentes redirections dans le header + mise en forme de la page Contact.html" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="320" y="168" key="Vcs.Push.Dialog.v2" timestamp="1647617373400">
+      <screen x="0" y="25" width="1440" height="813" />
+    </state>
+    <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.25.1440.813@0.25.1440.813" timestamp="1647617373400" />
+    <state x="520" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1647617395331">
+      <screen x="0" y="25" width="1440" height="813" />
+    </state>
+    <state x="520" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.813@0.25.1440.813" timestamp="1647617395331" />
     <state x="421" y="64" width="597" height="735" key="find.popup" timestamp="1647508698152">
       <screen x="0" y="25" width="1440" height="813" />
     </state>
