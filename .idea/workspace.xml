@@ -20,17 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a84814c1-abdd-474e-b8b9-7a8e5f998fa4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/www/views/entreprise.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/views/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/views/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/views/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ProjetWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProjetWeb.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignation des droits.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/Assignation des droits.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page de connexion.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/Page de connexion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/Contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/aPropos.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/aPropos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/droitParAdmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/droitParAdmin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/droitParPilote.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/droitParPilote.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/Content/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/Scripts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/inscription.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/inscription.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/views/Assignation des droits.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/views/Page de connexion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/views/connection.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/connection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/views/droitParAdmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/droitParAdmin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/views/droitParPilote.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/droitParPilote.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/views/inscription.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/inscription.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +165,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647813542992</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Rangement des fichiers pour adopter le MVC">
+      <created>1647852767836</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1647852767836</updated>
+    </task>
+    <task id="LOCAL-00012" summary="correction de problèmes">
+      <created>1647855896463</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1647855896463</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,22 +206,27 @@
     <MESSAGE value="Amélioration de la navbar + page à propos" />
     <MESSAGE value="Changement de la sémantique de la navbar et ajout du mode sandwich pour device mobile" />
     <MESSAGE value="mise en page de la page d'inscription" />
-    <option name="LAST_COMMIT_MESSAGE" value="mise en page de la page d'inscription" />
+    <MESSAGE value="Rangement des fichiers pour adopter le MVC" />
+    <MESSAGE value="correction de problèmes" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction de problèmes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="183" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1647850293140">
-      <screen x="0" y="25" width="1440" height="814" />
+    <state x="183" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1647858563769">
+      <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state x="183" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.814@0.25.1440.814" timestamp="1647850293140" />
-    <state x="320" y="168" key="Vcs.Push.Dialog.v2" timestamp="1647813546060">
+    <state x="183" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.815@0.25.1440.815" timestamp="1647858563769" />
+    <state x="320" y="168" key="Vcs.Push.Dialog.v2" timestamp="1647852777955">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.25.1440.813@0.25.1440.813" timestamp="1647617373400" />
-    <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1647813546060" />
-    <state x="520" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1647617395331">
-      <screen x="0" y="25" width="1440" height="813" />
+    <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1647852777955" />
+    <state x="520" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1647858569025">
+      <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state x="520" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.813@0.25.1440.813" timestamp="1647617395331" />
+    <state x="520" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.814@0.25.1440.814" timestamp="1647852773374" />
+    <state x="520" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.815@0.25.1440.815" timestamp="1647858569025" />
     <state x="421" y="64" width="597" height="735" key="find.popup" timestamp="1647508698152">
       <screen x="0" y="25" width="1440" height="813" />
     </state>
