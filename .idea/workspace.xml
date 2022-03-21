@@ -20,17 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a84814c1-abdd-474e-b8b9-7a8e5f998fa4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/www/Contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignation des droits.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/Assignation des droits.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page de connexion.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/Page de connexion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/Contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/aPropos.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/aPropos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/droitParAdmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/droitParAdmin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/droitParPilote.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/droitParPilote.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/Content/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/Scripts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/inscription.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/inscription.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +39,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="26VOpurWufaaradaCce5OtLb40h" />
   <component name="ProjectLevelVcsManager">
@@ -62,8 +55,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -71,16 +64,12 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/www/views" />
-      <recent name="$PROJECT_DIR$/www/Scripts" />
-      <recent name="$PROJECT_DIR$/www/Content" />
-      <recent name="$PROJECT_DIR$/www" />
       <recent name="$PROJECT_DIR$/www/assets" />
+      <recent name="$PROJECT_DIR$/www" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -93,6 +82,7 @@
       <updated>1647505473793</updated>
       <workItem from="1647505475825" duration="34000" />
       <workItem from="1647505648146" duration="4551000" />
+      <workItem from="1647592228799" duration="6570000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouts de la structure de base">
       <created>1647505838701</created>
@@ -108,63 +98,7 @@
       <option name="project" value="LOCAL" />
       <updated>1647510943068</updated>
     </task>
-    <task id="LOCAL-00003" summary="Finition de la page d'acceuil">
-      <created>1647609520939</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1647609520939</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Finition de la page d'acceuil">
-      <created>1647610053751</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1647610053751</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Finition de la page d'acceuil">
-      <created>1647610232130</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1647610232130</updated>
-    </task>
-    <task id="LOCAL-00006" summary="ajout des pages de gestion des droits">
-      <created>1647610425774</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1647610425774</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Ajout des différentes redirections dans le header + mise en forme de la page Contact.html">
-      <created>1647617371706</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1647617371706</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Amélioration de la navbar + page à propos">
-      <created>1647807093099</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1647807093099</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Changement de la sémantique de la navbar et ajout du mode sandwich pour device mobile">
-      <created>1647808395022</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1647808395022</updated>
-    </task>
-    <task id="LOCAL-00010" summary="mise en page de la page d'inscription">
-      <created>1647813542992</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1647813542992</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,36 +119,16 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Ajouts de la structure de base" />
     <MESSAGE value="Ajout du header et du footer de l'accueil" />
-    <MESSAGE value="Finition de la page d'acceuil" />
-    <MESSAGE value="ajout des pages de gestion des droits" />
-    <MESSAGE value="Ajout des différentes redirections dans le header + mise en forme de la page Contact.html" />
-    <MESSAGE value="Amélioration de la navbar + page à propos" />
-    <MESSAGE value="Changement de la sémantique de la navbar et ajout du mode sandwich pour device mobile" />
-    <MESSAGE value="mise en page de la page d'inscription" />
-    <option name="LAST_COMMIT_MESSAGE" value="mise en page de la page d'inscription" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout du header et du footer de l'accueil" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="183" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1647850293140">
-      <screen x="0" y="25" width="1440" height="814" />
-    </state>
-    <state x="183" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.814@0.25.1440.814" timestamp="1647850293140" />
-    <state x="320" y="168" key="Vcs.Push.Dialog.v2" timestamp="1647813546060">
-      <screen x="0" y="25" width="1440" height="814" />
-    </state>
-    <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.25.1440.813@0.25.1440.813" timestamp="1647617373400" />
-    <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1647813546060" />
-    <state x="520" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1647617395331">
-      <screen x="0" y="25" width="1440" height="813" />
-    </state>
-    <state x="520" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.813@0.25.1440.813" timestamp="1647617395331" />
     <state x="421" y="64" width="597" height="735" key="find.popup" timestamp="1647508698152">
       <screen x="0" y="25" width="1440" height="813" />
     </state>
     <state x="421" y="64" width="597" height="735" key="find.popup/0.25.1440.813@0.25.1440.813" timestamp="1647508698152" />
-    <state x="385" y="162" width="672" height="677" key="search.everywhere.popup" timestamp="1647813504962">
-      <screen x="0" y="25" width="1440" height="814" />
+    <state x="385" y="162" width="670" height="676" key="search.everywhere.popup" timestamp="1647510506719">
+      <screen x="0" y="25" width="1440" height="813" />
     </state>
     <state x="385" y="162" width="670" height="676" key="search.everywhere.popup/0.25.1440.813@0.25.1440.813" timestamp="1647510506719" />
-    <state x="385" y="162" width="672" height="677" key="search.everywhere.popup/0.25.1440.814@0.25.1440.814" timestamp="1647813504962" />
   </component>
 </project>
