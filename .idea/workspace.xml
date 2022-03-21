@@ -19,18 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a84814c1-abdd-474e-b8b9-7a8e5f998fa4" name="Default Changelist" comment="">
+    <list default="true" id="a84814c1-abdd-474e-b8b9-7a8e5f998fa4" name="Default Changelist" comment="mise en page de la page d'inscription">
+      <change afterPath="$PROJECT_DIR$/www/views/Eval_entreprise.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignation des droits.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/Assignation des droits.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page de connexion.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/Page de connexion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/Contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/aPropos.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/aPropos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/droitParAdmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/droitParAdmin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/droitParPilote.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/droitParPilote.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/Content/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/Scripts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/inscription.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/inscription.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +41,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="26VOpurWufaaradaCce5OtLb40h" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -62,6 +56,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -93,6 +88,7 @@
       <updated>1647505473793</updated>
       <workItem from="1647505475825" duration="34000" />
       <workItem from="1647505648146" duration="4551000" />
+      <workItem from="1647853406152" duration="5781000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouts de la structure de base">
       <created>1647505838701</created>
@@ -192,29 +188,5 @@
     <MESSAGE value="Changement de la sémantique de la navbar et ajout du mode sandwich pour device mobile" />
     <MESSAGE value="mise en page de la page d'inscription" />
     <option name="LAST_COMMIT_MESSAGE" value="mise en page de la page d'inscription" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="183" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1647850293140">
-      <screen x="0" y="25" width="1440" height="814" />
-    </state>
-    <state x="183" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.814@0.25.1440.814" timestamp="1647850293140" />
-    <state x="320" y="168" key="Vcs.Push.Dialog.v2" timestamp="1647813546060">
-      <screen x="0" y="25" width="1440" height="814" />
-    </state>
-    <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.25.1440.813@0.25.1440.813" timestamp="1647617373400" />
-    <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1647813546060" />
-    <state x="520" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1647617395331">
-      <screen x="0" y="25" width="1440" height="813" />
-    </state>
-    <state x="520" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.813@0.25.1440.813" timestamp="1647617395331" />
-    <state x="421" y="64" width="597" height="735" key="find.popup" timestamp="1647508698152">
-      <screen x="0" y="25" width="1440" height="813" />
-    </state>
-    <state x="421" y="64" width="597" height="735" key="find.popup/0.25.1440.813@0.25.1440.813" timestamp="1647508698152" />
-    <state x="385" y="162" width="672" height="677" key="search.everywhere.popup" timestamp="1647813504962">
-      <screen x="0" y="25" width="1440" height="814" />
-    </state>
-    <state x="385" y="162" width="670" height="676" key="search.everywhere.popup/0.25.1440.813@0.25.1440.813" timestamp="1647510506719" />
-    <state x="385" y="162" width="672" height="677" key="search.everywhere.popup/0.25.1440.814@0.25.1440.814" timestamp="1647813504962" />
   </component>
 </project>
