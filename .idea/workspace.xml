@@ -22,17 +22,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a84814c1-abdd-474e-b8b9-7a8e5f998fa4" name="Default Changelist" comment="mise en page de la page d'inscription">
+    <list default="true" id="a84814c1-abdd-474e-b8b9-7a8e5f998fa4" name="Default Changelist" comment="Préparation du terrain pour le backend">
+      <change afterPath="$PROJECT_DIR$/www/controllers/cad.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/model/apply.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/model/company.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/model/grades.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/model/localities.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/model/offer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/model/permissions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/model/promotions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/model/role.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/model/users.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/views/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/Contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/views/aPropos.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/aPropos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/views/connection.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/views/droitParAdmin.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/views/droitParPilote.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/views/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/views/inscription.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/inscription.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/views/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/navbar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,10 +61,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.1" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="26VOpurWufaaradaCce5OtLb40h" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -74,10 +86,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mariadb&#10;mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/www/model" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -86,9 +101,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/www/model" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/www/views" />
       <recent name="$PROJECT_DIR$/www/Scripts" />
@@ -109,7 +128,7 @@
       <workItem from="1647505648146" duration="4551000" />
       <workItem from="1647870260182" duration="1175000" />
       <workItem from="1647875458734" duration="575000" />
-      <workItem from="1647938536720" duration="1682000" />
+      <workItem from="1647938536720" duration="19793000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouts de la structure de base">
       <created>1647505838701</created>
@@ -181,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647813542992</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Préparation du terrain pour le backend">
+      <created>1647941285103</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1647941285103</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +234,7 @@
     <MESSAGE value="Amélioration de la navbar + page à propos" />
     <MESSAGE value="Changement de la sémantique de la navbar et ajout du mode sandwich pour device mobile" />
     <MESSAGE value="mise en page de la page d'inscription" />
-    <option name="LAST_COMMIT_MESSAGE" value="mise en page de la page d'inscription" />
+    <MESSAGE value="Préparation du terrain pour le backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Préparation du terrain pour le backend" />
   </component>
 </project>
