@@ -11,8 +11,7 @@
 </head>
 
 <?php
-include 'navbar.php'
-
+include 'navbar.php';
 ?>
 
 <body>
