@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a84814c1-abdd-474e-b8b9-7a8e5f998fa4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/www/Contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/views/Compte pilote 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/views/Compte pilote.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/views/Wishlist.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +59,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -120,15 +123,5 @@
     <MESSAGE value="Ajouts de la structure de base" />
     <MESSAGE value="Ajout du header et du footer de l'accueil" />
     <option name="LAST_COMMIT_MESSAGE" value="Ajout du header et du footer de l'accueil" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="421" y="64" width="597" height="735" key="find.popup" timestamp="1647508698152">
-      <screen x="0" y="25" width="1440" height="813" />
-    </state>
-    <state x="421" y="64" width="597" height="735" key="find.popup/0.25.1440.813@0.25.1440.813" timestamp="1647508698152" />
-    <state x="385" y="162" width="670" height="676" key="search.everywhere.popup" timestamp="1647510506719">
-      <screen x="0" y="25" width="1440" height="813" />
-    </state>
-    <state x="385" y="162" width="670" height="676" key="search.everywhere.popup/0.25.1440.813@0.25.1440.813" timestamp="1647510506719" />
   </component>
 </project>
