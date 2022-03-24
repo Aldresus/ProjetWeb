@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page de connexion</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/bd63cdcb8f.js" crossorigin="anonymous"></script>
@@ -16,49 +17,25 @@ include 'navbar.php'
 <body>
         <div class="container">
             <div class="row">
-                <div class="col-md-6 offset-3 bg-light border">
-                    <form>
-                        <p class="mt-5 mb-5 h1">Inscription</p>
-                        <div class="p-2 form-group">
-                            <label for="nom">Nom :</label><br/>
-                            <input type="text" id="nom" name="Nom" class="form-control" placeholder="Entrer un nom"/>
+                <div class="col-4 offset-4">
+                    <form class="border mt-5 p-3 rounded" method="post" action="">
+                        <h1 class="mb-4">Connection</h1>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="login" name="login" value="name@example.com" placeholder="name@example.com" required>
+                            <label for="login">Adresse email</label>
                         </div>
-                        <div class="p-2 form-group" style=>
-                            <label for="prénom">Prénom :</label><br/>
-                            <input type="text" id="prénom" name="Prénom" class="form-control" placeholder="Entrer un prénom"/>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control" id="password" name="password" value="password" placeholder="Psw123" required>
+                            <label for="login">Mot de passe</label>
                         </div>
-                        <div class="p-2 form-group">
-                            <label for="role">Rôle :</label><br/>
-                            <select id="role" >
-                                <option>Choisir un rôle</option>
-                                <option>Etudiant</option>
-                                <option>Pilote</option>
-                                <option>Délégué</option>
-                                <option>Administrateur</option>
-                            </select>
-                        </div>
-                        <div class="p-2 form-group">
-                            <label for="centre">Centre :</label><br/>
-                            <input type="text" id="centre" name="Centre" class="form-control" placeholder="Entrer le centre"/>
-                        </div>
-                        <div class="p-2 form-group">
-                            <label for="promo">Promotion :</label><br/>
-                            <input type="text" id="promo" name="Promotion" class="form-control" placeholder="Entrer la promotion"/>
-                        </div>
-                        <ul class="p-2 list-inline">
-                            <li class="list-inline-item">Permission</li>
-                            <li class="list-inline-item"><a href="../../Assignation%20des%20droits.html">ici</a></li>
-                        </ul>
-                        <div class="mb-4 col-12">
-                            <button class="btn btn-primary" type="submit">Inscrire</button>
-                        </div>
+                        <button class="btn btn-primary" type="submit">Envoyer</button>
                     </form>
                 </div>
             </div>
         </div>
 </body>
 
-<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 mb-0 mt-5 border-top bg-dark text-white">
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 mb-0 mt-5 border-top bg-dark text-white fixed-bottom">
     <div class="col-md-4 d-flex align-items-center ms-4">
         <span class="text-muted">&copy; 2021 le stage là</span>
     </div>
