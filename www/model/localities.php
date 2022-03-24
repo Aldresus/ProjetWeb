@@ -3,10 +3,11 @@ class localities
 {
 // déclaration des attributs :
     private int $cityID;
+    private string $cityName;
     private string $postalCode;
     private string $roadName;
     private int $roadNumber;
-    private string $cityName;
+
 
     // Geters :
     public function getCityID(): int
@@ -52,22 +53,22 @@ class localities
     //CRUD
 
     public function select(): string
-    {
-        return "";
+    {//Ajouter la moyenne des notes
+        return "SELECT * FROM Localities";
     }
 
     public function insert(): string
     {
-        return "";
+        return "INSERT INTO Localities(cityID, cityName, postalCode, roadName, roadNumber) VALUES (?, ?, ?, ?, ?)";
     }
 
     public function update(): string
     {
-        return "";
+        return "UPDATE Localities SET (grade=?) WHERE (companyID=? AND userID=?)";
     }
 
     public function delete(): string
     {
-        return "";
+        return "DELETE FROM Localities WHERE (companyID=? AND userID=?)";
     }
 }

@@ -22,18 +22,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a84814c1-abdd-474e-b8b9-7a8e5f998fa4" name="Default Changelist" comment="Préparation du terrain pour le backend">
-      <change afterPath="$PROJECT_DIR$/www/controllers/cad.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/model/apply.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/model/company.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/model/grades.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/model/localities.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/model/offer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/model/permissions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/model/promotions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/model/role.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/model/users.php" afterDir="false" />
+    <list default="true" id="a84814c1-abdd-474e-b8b9-7a8e5f998fa4" name="Default Changelist" comment="creation de classes de mappage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/model/apply.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/model/apply.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/model/company.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/model/company.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/model/grades.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/model/grades.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/model/localities.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/model/localities.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/model/offer.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/model/offer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/model/permissions.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/model/permissions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/model/promotions.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/model/promotions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/model/role.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/model/role.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/model/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/model/users.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +127,7 @@
       <workItem from="1647505648146" duration="4551000" />
       <workItem from="1647870260182" duration="1175000" />
       <workItem from="1647875458734" duration="575000" />
-      <workItem from="1647938536720" duration="19793000" />
+      <workItem from="1647938536720" duration="28980000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouts de la structure de base">
       <created>1647505838701</created>
@@ -207,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647941285103</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="creation de classes de mappage">
+      <created>1647990372811</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1647990372811</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +241,7 @@
     <MESSAGE value="Changement de la sémantique de la navbar et ajout du mode sandwich pour device mobile" />
     <MESSAGE value="mise en page de la page d'inscription" />
     <MESSAGE value="Préparation du terrain pour le backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="Préparation du terrain pour le backend" />
+    <MESSAGE value="creation de classes de mappage" />
+    <option name="LAST_COMMIT_MESSAGE" value="creation de classes de mappage" />
   </component>
 </project>

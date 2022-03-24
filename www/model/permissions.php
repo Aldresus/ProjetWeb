@@ -27,22 +27,22 @@ class permissions
     //CRUD
 
     public function select(): string
-    {
-        return "";
+    {//Ajouter la moyenne des notes
+        return "SELECT * FROM Permissions";
     }
 
     public function insert(): string
     {
-        return "";
+        return "INSERT INTO Permissions(permission) VALUES (?)";
     }
 
     public function update(): string
     {
-        return "";
+        return "UPDATE Permissions SET (permission=?) WHERE (permissionID=?)";
     }
 
     public function delete(): string
     {
-        return "";
+        return "DELETE FROM Permissions WHERE WHERE (permissionID=?)";
     }
 }

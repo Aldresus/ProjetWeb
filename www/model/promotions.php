@@ -40,22 +40,23 @@ class promotions
 //CRUD
 
     public function select(): string
-    {
-        return "";
+    {//Ajouter la moyenne des notes
+        return "SELECT * FROM Promotions";
     }
 
     public function insert(): string
     {
-        return "";
+        return "INSERT INTO Promotions(promotion, userID) VALUES (?, ?)";
     }
 
     public function update(): string
     {
-        return "";
+        return "UPDATE Permissions SET (promotion=?, userID=?) WHERE (promotionID=?)";
     }
 
     public function delete(): string
     {
-        return "";
+        return "DELETE FROM Permissions WHERE (promotionID=?)";
     }
+
 }

@@ -29,23 +29,23 @@ class role
     //CRUD
 
     public function select(): string
-    {
-        return "";
+    {//Ajouter la moyenne des notes
+        return "SELECT * FROM Role";
     }
 
     public function insert(): string
     {
-        return "";
+        return "INSERT INTO Role(roleName) VALUES (?)";
     }
 
     public function update(): string
     {
-        return "";
+        return "UPDATE Role SET (roleName=?) WHERE (roleID=?)";
     }
 
     public function delete(): string
     {
-        return "";
+        return "DELETE FROM Role WHERE (roleID=?)";
     }
 
 

@@ -3,10 +3,7 @@ class grades
 {
 // déclaration des attributs :
     private int $companyID;
-    private string $companyName;
     private int $userID;
-    private string $firstName;
-    private string $lastName;
     private float $grade;
 
     // Geters :
@@ -14,21 +11,9 @@ class grades
     {
         return $this->companyID;
     }
-    public function getCompanyName(): string
-    {
-        return $this->companyName;
-    }
     public function getUserID(): int
     {
         return $this->userID;
-    }
-    public function getFirstName(): string
-    {
-        return $this->firstName;
-    }
-    public function getLastName(): string
-    {
-        return $this->lastName;
     }
     public function getGrade(): float
     {
@@ -39,17 +24,8 @@ class grades
     public function setCompanyID($companyID){
         $this->companyID = $companyID;
     }
-    public function setCompanyName($companyName){
-        $this->companyName = $companyName;
-    }
     public function setUserID($userID){
         $this->userID = $userID;
-    }
-    public function setFirstName($firstName){
-        $this->firstName = $firstName;
-    }
-    public function setLastName($lastName){
-        $this->lastName = $lastName;
     }
     public function setGrade($grade){
         $this->grade = $grade;
@@ -58,22 +34,22 @@ class grades
     //CRUD
 
     public function select(): string
-    {
-        return "";
+    {//Ajouter la moyenne des notes
+        return "SELECT * FROM grade";
     }
 
     public function insert(): string
     {
-        return "";
+        return "INSERT INTO grade(companyId, userID, grade) VALUES (?, ?, ?)";
     }
 
     public function update(): string
     {
-        return "";
+        return "UPDATE grade SET (grade=?) WHERE (companyID=? AND userID=?)";
     }
 
     public function delete(): string
     {
-        return "";
+        return "DELETE FROM grade WHERE (companyID=? AND userID=?)";
     }
 }

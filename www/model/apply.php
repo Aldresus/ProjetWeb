@@ -107,21 +107,21 @@ class apply
 
     public function select(): string
     {
-        return "";
+        return "SELECT * FROM Apply";
     }
 
     public function insert(): string
     {
-        return "";
+        return "INSERT INTO Apply(offerID, userID, resume, motivationLetter, validationSheet, convention, rejected, step, studentGrade) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
     }
 
     public function update(): string
     {
-        return "";
+        return "UPDATE Apply SET (offerID=?, userID=?, resume=?, motivationLetter=?, validationSheet=?, convention=?, rejected=?, step=?, studentGrade=?) WHERE (offerID=? and userID=?)";
     }
 
     public function delete(): string
     {
-        return "";
+        return "DELETE FROM Apply WHERE WHERE (offerID=? and userID=?)";
     }
 }

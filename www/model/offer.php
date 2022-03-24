@@ -84,22 +84,22 @@ class offer
     //CRUD
 
     public function select(): string
-    {
-        return "";
+    {//Ajouter la moyenne des notes
+        return "SELECT * FROM Offer";
     }
 
     public function insert(): string
     {
-        return "";
+        return "INSERT INTO Offer(duration, offerDate, internNumber, available, companyID, localityID) VALUES (?, ?, ?, ?, ?, ?)";
     }
 
     public function update(): string
     {
-        return "";
+        return "UPDATE Offer SET (duration=?, offerDate=?, internNumber=?, available=?, companyID=?, localityID=?) WHERE (offerID=?)";
     }
 
     public function delete(): string
     {
-        return "";
+        return "DELETE FROM Offer WHERE WHERE (offerID=?)";
     }
 }

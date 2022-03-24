@@ -2,37 +2,37 @@
 class company extends localities
 {
 // déclaration des attributs :
-    private $companyID;
-    private $companyName;
-    private $companyActivity;
-    private $nbAcceptedIntern;
-    private $internReview;
-    private $reviewPilot;
+    private int $companyID;
+    private string $companyName;
+    private string $companyActivity;
+    private int $nbAcceptedIntern;
+    private float $internReview;
+    private float $reviewPilot;
 
     // Geters :
-    public function getCompanyID() {
-        /** @var int $companyID */
-        return $this->$companyID;
+    public function getCompanyID(): int
+    {
+        return $this->companyID;
     }
-    public function getCompanyName() {
-        /** @var string $companyName */
-        return $this->$companyName;
+    public function getCompanyName(): string
+    {
+        return $this->companyName;
     }
-    public function getCompanyActivity() {
-        /** @var string $companyActivity */
-        return $this->$companyActivity;
+    public function getCompanyActivity(): string
+    {
+        return $this->companyActivity;
     }
-    public function getNbAcceptedIntern() {
-        /** @var int $nbAcceptedIntern */
-        return $this->$nbAcceptedIntern;
+    public function getNbAcceptedIntern(): int
+    {
+        return $this->nbAcceptedIntern;
     }
-    public function getInternReview() {
-        /** @var float $internReview */
-        return $this->$internReview;
+    public function getInternReview(): float
+    {
+        return $this->internReview;
     }
-    public function getReviewPilot() {
-        /** @var float $reviewPilot */
-        return $this->$reviewPilot;
+    public function getReviewPilot(): float
+    {
+        return $this->reviewPilot;
     }
 
 
@@ -61,22 +61,22 @@ class company extends localities
     //CRUD
 
     public function select(): string
-    {
-        return "";
+    {//Ajouter la moyenne des notes
+        return "SELECT * FROM Company";
     }
 
     public function insert(): string
     {
-        return "";
+        return "INSERT INTO Company(companyName, companyActivity, nbAcceptedInterns, reviewPilot) VALUES (?, ?, ?, ?)";
     }
 
     public function update(): string
     {
-        return "";
+        return "UPDATE Company SET (companyName=?, companyActivity=?, nbAcceptedInterns=?, reviewPilot=?) WHERE (companyId=?)";
     }
 
     public function delete(): string
     {
-        return "";
+        return "DELETE FROM Company WHERE (companyId=?)";
     }
 }

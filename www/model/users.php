@@ -76,22 +76,22 @@ class users
     //CRUD
 
     public function select(): string
-    {
-        return "";
+    {//Ajouter la moyenne des notes
+        return "SELECT * FROM Users";
     }
 
     public function insert(): string
     {
-        return "";
+        return "INSERT INTO Users(firstName, lastName, center, login, password, promotionID) VALUES (?, ?, ?, ?, ?, ?)";
     }
 
     public function update(): string
     {
-        return "";
+        return "UPDATE Users SET (firstName=?, lastName=?, center=?, login=?, password=?, promotionID=?) WHERE (userID=?)";
     }
 
     public function delete(): string
     {
-        return "";
+        return "DELETE FROM Users WHERE (userID=?)";
     }
 }
