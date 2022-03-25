@@ -22,10 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a84814c1-abdd-474e-b8b9-7a8e5f998fa4" name="Default Changelist" comment="Ajout de requêtes dans les classes de mappage">
-      <change afterPath="$PROJECT_DIR$/www/model/authService.php" afterDir="false" />
+    <list default="true" id="a84814c1-abdd-474e-b8b9-7a8e5f998fa4" name="Default Changelist" comment="ajout des bases de système de connection">
+      <change afterPath="$PROJECT_DIR$/www/controllers/access.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/Scripts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/cad.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/controllers/cad.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/model/authService.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/model/authService.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/views/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/connection.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +96,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -124,7 +125,7 @@
       <workItem from="1647875458734" duration="575000" />
       <workItem from="1647938536720" duration="29017000" />
       <workItem from="1648115194962" duration="1319000" />
-      <workItem from="1648127172195" duration="3492000" />
+      <workItem from="1648127172195" duration="9751000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouts de la structure de base">
       <created>1647505838701</created>
@@ -217,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648104875326</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="ajout des bases de système de connection">
+      <created>1648139304726</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1648139304726</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +255,7 @@
     <MESSAGE value="Préparation du terrain pour le backend" />
     <MESSAGE value="creation de classes de mappage" />
     <MESSAGE value="Ajout de requêtes dans les classes de mappage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout de requêtes dans les classes de mappage" />
+    <MESSAGE value="ajout des bases de système de connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout des bases de système de connection" />
   </component>
 </project>

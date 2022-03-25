@@ -18,7 +18,7 @@ include 'navbar.php'
         <div class="container">
             <div class="row">
                 <div class="col-4 offset-4">
-                    <form class="border mt-5 p-3 rounded" method="post" action="">
+                    <form class="border mt-5 p-3 rounded" method="post" action="../model/authService.php">
                         <h1 class="mb-4">Connection</h1>
                         <div class="form-floating mb-3">
                             <input type="email" class="form-control" id="login" name="login" value="name@example.com" placeholder="name@example.com" required>
