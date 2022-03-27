@@ -14,7 +14,15 @@
                 <li><a href="Contact.php" class="nav-link px-2 text-light">Contact</a></li>
                 <li><a href="aPropos.php" class="nav-link px-2 text-light">À propos</a></li>
             </ul>
-            <button type="button" class="btn btn-warning text-dark me-2">Connection</button>
+            <?php
+            if(!isset($_COOKIE)){
+                echo'<a href="connection.php" class="btn btn-warning text-dark me-2">Connection</a>';
+            }
+            else
+            {
+                echo'<i class="fa-solid fa-user-astronaut fa-xl btn btn-warning text-dark px-3 py-3"></i>';
+            }
+            ?>
         </div>
     </div>
 </nav>

@@ -22,12 +22,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a84814c1-abdd-474e-b8b9-7a8e5f998fa4" name="Default Changelist" comment="ajout des bases de système de connection">
-      <change afterPath="$PROJECT_DIR$/www/controllers/access.php" afterDir="false" />
+    <list default="true" id="a84814c1-abdd-474e-b8b9-7a8e5f998fa4" name="Default Changelist" comment="Avancement sur le cad">
+      <change afterPath="$PROJECT_DIR$/www/controllers/authController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/model/CLauthService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/model/CLpermService.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/controllers/cad.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/controllers/cad.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/model/authService.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/model/authService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/Content/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/style/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/access.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/controllers/access.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/cad.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/model/authService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/views/aPropos.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/aPropos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/views/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/views/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/inscription.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/views/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/navbar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,11 +112,11 @@
       <recent name="$PROJECT_DIR$/www/model" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/www/model" />
+      <recent name="$PROJECT_DIR$/www/controllers" />
       <recent name="$PROJECT_DIR$/www/views" />
       <recent name="$PROJECT_DIR$/www/Scripts" />
       <recent name="$PROJECT_DIR$/www/Content" />
-      <recent name="$PROJECT_DIR$/www" />
-      <recent name="$PROJECT_DIR$/www/assets" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -125,7 +133,8 @@
       <workItem from="1647875458734" duration="575000" />
       <workItem from="1647938536720" duration="29017000" />
       <workItem from="1648115194962" duration="1319000" />
-      <workItem from="1648127172195" duration="9751000" />
+      <workItem from="1648127172195" duration="9810000" />
+      <workItem from="1648196295824" duration="20864000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouts de la structure de base">
       <created>1647505838701</created>
@@ -225,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648139304726</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Avancement sur le cad">
+      <created>1648196250322</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1648196250322</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +272,7 @@
     <MESSAGE value="creation de classes de mappage" />
     <MESSAGE value="Ajout de requêtes dans les classes de mappage" />
     <MESSAGE value="ajout des bases de système de connection" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout des bases de système de connection" />
+    <MESSAGE value="Avancement sur le cad" />
+    <option name="LAST_COMMIT_MESSAGE" value="Avancement sur le cad" />
   </component>
 </project>
