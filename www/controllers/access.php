@@ -3,4 +3,4 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$db = "projetWeb";
+$db = "projetWebTest";

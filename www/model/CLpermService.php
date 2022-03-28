@@ -1,26 +1,13 @@
 <?php
-
-class CLpermService
+require'CLcadService.php';
+class CLpermService extends CLcadService
 {
-    private users $oUsers;
-    private PDO $oPdo;
 
-    public function __construct($servername, $db, $username, $password)
-    {
-        try {
-            $this->oPdo = new PDO("mysql:host=$servername;dbname=$db", $username, $password);
-            $this->oPdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            echo "<script>console.log('Connected successfully')</script>";
-        } catch (PDOException $e) {
-            echo "Connection failed: " . $e->getMessage();
-        }
-    }
-
-    public function ajoutPermission(string $perm): bool
+    public function addPermission(string $permission): bool
     {
         try {
             $sql=$this->oPdo->prepare("INSERT INTO Permissions(permission) VALUES (?) ");
-            $sql->execute(array($perm));
+            $sql->execute(array($permission));
             return true;
         }
         catch (Exception $e){
@@ -29,4 +16,18 @@ class CLpermService
         }
 
     }
+    public function getPermissions():array
+    {
+        $query=$this->oPdo->prepare("Select permissionID FROM Permissions;");
+        $query->execute();
+        $Perms=array();
+
+        foreach ($query->fetchAll(PDO::FETCH_ASSOC) as $row) {
+            $Perms[]=$row['permissionID'];
+        }
+        return $Perms;
+    }
 }
+require '../controllers/access.php';
+$oPermService=new CLpermService($servername, $db, $username, $password);
+$oPermService->getPermissions();

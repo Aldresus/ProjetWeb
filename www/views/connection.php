@@ -21,11 +21,11 @@ include 'navbar.php'
                     <form class="border mt-5 p-3 rounded" method="post" action="../controllers/authController.php">
                         <h1 class="mb-4">Connection</h1>
                         <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="login" name="login" value="name@example.com" placeholder="name@example.com" required>
+                            <input type="email" class="form-control" id="login" name="login" value="michelpilote@mail.com" placeholder="name@example.com" required>
                             <label for="login">Adresse email</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <input type="password" class="form-control" id="password" name="password" value="password" placeholder="Psw123" required>
+                            <input type="password" class="form-control" id="password" name="password" value="password123" placeholder="Psw123" required>
                             <label for="login">Mot de passe</label>
                         </div>
                         <?php

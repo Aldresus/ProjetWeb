@@ -12,6 +12,7 @@
 
 <?php
 include 'navbar.php';
+print_r($_COOKIE);
 ?>
 
 <body>

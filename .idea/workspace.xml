@@ -22,17 +22,34 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a84814c1-abdd-474e-b8b9-7a8e5f998fa4" name="Default Changelist" comment="Avancement sur le cad">
-      <change afterPath="$PROJECT_DIR$/www/controllers/authController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/model/CLauthService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/model/CLpermService.php" afterDir="false" />
+    <list default="true" id="a84814c1-abdd-474e-b8b9-7a8e5f998fa4" name="Default Changelist" comment="authentification opérationelle">
+      <change afterPath="$PROJECT_DIR$/www/Scripts/inscription.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/controllers/companyController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/controllers/inscriptionController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/model/CLcadService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/model/CLcityService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/model/CLcompanyService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/model/CLpromotionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/model/CLroleService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/model/CLuserService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/views/profil.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Content/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/style/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/controllers/access.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/controllers/access.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/controllers/cad.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/model/authService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/views/aPropos.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/aPropos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/authController.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/controllers/authController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/model/CLauthService.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/model/CLauthService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/model/CLpermService.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/model/CLpermService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/model/apply.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/model/company.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/model/grades.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/model/localities.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/model/offer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/model/permissions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/model/promotions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/model/role.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/model/users.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/views/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/Contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/views/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/views/entreprise.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/entreprises.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/views/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/inscription.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/views/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/navbar.php" afterDir="false" />
@@ -49,8 +66,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -134,7 +151,7 @@
       <workItem from="1647938536720" duration="29017000" />
       <workItem from="1648115194962" duration="1319000" />
       <workItem from="1648127172195" duration="9810000" />
-      <workItem from="1648196295824" duration="20864000" />
+      <workItem from="1648196295824" duration="59605000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouts de la structure de base">
       <created>1647505838701</created>
@@ -241,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648196250322</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="authentification opérationelle">
+      <created>1648393263097</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1648393263097</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +297,18 @@
     <MESSAGE value="Ajout de requêtes dans les classes de mappage" />
     <MESSAGE value="ajout des bases de système de connection" />
     <MESSAGE value="Avancement sur le cad" />
-    <option name="LAST_COMMIT_MESSAGE" value="Avancement sur le cad" />
+    <MESSAGE value="authentification opérationelle" />
+    <option name="LAST_COMMIT_MESSAGE" value="authentification opérationelle" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/www/views/entreprises.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
