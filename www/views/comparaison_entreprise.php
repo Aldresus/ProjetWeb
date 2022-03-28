@@ -10,11 +10,10 @@
 </head>
 <body>
 <header class="p-3 bg-dark text-white">
-
     <?php
-include 'navbar.php'
+    include 'navbar.php'
 
-?>
+    ?>
 </header>
 <!-- Contenu du site -->
 <main>
