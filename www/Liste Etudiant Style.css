@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+formo {
+    margin-left : 25%
+}
+
+/* GRID */
+
+.item1 { grid-area: form; }
+.item2 { grid-area: liste; }
+.item3 { grid-area: E1; }
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'liste E1 E1 E1 E1 E1 E1'
+    'liste E1 E1 E1 E1 E1 E1'
+    'liste E1 E1 E1 E1 E1 E1';
+    gap: 20px;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+
+.grid-container > div {
+    background-color: white;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 40px;
+}
