@@ -1,0 +1,24 @@
+{
+  "name": "STAJ",
+  "short_name": "STAJ",
+  "lang": "fr",
+  "start_url": "/apropos.html",
+  "display": "standalone",
+  "background_color": "white",
+  "theme_color": "#DC143C",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "staj.png",
+      "sizes": "449x187",
+      "type": "image/png"
+    },
+    {
+      "src": "happyIntern.png",
+      "sizes": "1000x667",
+      "type": "image/png"
+
+    }
+
+  ]
+}
