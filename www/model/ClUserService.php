@@ -1,5 +1,5 @@
 <?php
-class CLuserService extends CLcadService
+class ClUserService extends ClCadService
 {
     public function addUser($firstname, $lastname, $login, $password ,$promotion, $centerID, $roleID): bool
     {

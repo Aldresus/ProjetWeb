@@ -1,6 +1,6 @@
 <?php
-require 'CLcadService.php';
-class CLauthService extends CLcadService
+require 'ClCadService.php';
+class ClAuthService extends ClCadService
 {
 //----------------------------------------------------------------------------------------------------------------------
     public function auth(string $login, string $password)

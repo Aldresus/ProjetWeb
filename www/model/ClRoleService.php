@@ -1,5 +1,5 @@
 <?php
-class CLroleService extends CLcadService
+class ClRoleService extends ClCadService
 {
     public function getRoles():array
     {

@@ -1,7 +1,7 @@
 <?php
 require 'access.php';
-require '../model/CLauthService.php';
-$auth = new CLauthService($servername, $db, $username, $password);
+require '../model/ClAuthService.php';
+$auth = new ClAuthService($servername, $db, $username, $password);
 
 if($_GET['disconnect'] == 1) {
     setcookie("role", "", time() - 3600, "/");

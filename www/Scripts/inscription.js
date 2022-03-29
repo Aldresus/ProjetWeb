@@ -31,6 +31,7 @@ $(document).ready(function(){
             email.css("background-color", "darkseagreen");
         }
     });
+
     $("#role").on("change", function(){
         if($("#role :selected").text() == "Etudiant" || $("#role :selected").text() == "Delegue") {
             $("#promotion").css("display", "block");

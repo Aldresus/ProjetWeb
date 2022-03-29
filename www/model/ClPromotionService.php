@@ -1,5 +1,5 @@
 <?php
-class CLpromotionService extends CLcadService
+class ClPromotionService extends ClCadService
 {
     public function getPromotions():array
     {

@@ -1,6 +1,6 @@
 <?php
-require'CLcadService.php';
-class CLpermService extends CLcadService
+require 'ClCadService.php';
+class ClPermService extends ClCadService
 {
 
     public function addPermission(string $permission): bool
@@ -20,14 +20,14 @@ class CLpermService extends CLcadService
     {
         $query=$this->oPdo->prepare("Select permissionID FROM Permissions;");
         $query->execute();
-        $Perms=array();
+        $perms=array();
 
         foreach ($query->fetchAll(PDO::FETCH_ASSOC) as $row) {
-            $Perms[]=$row['permissionID'];
+            $perms[]=$row['permissionID'];
         }
-        return $Perms;
+        return $perms;
     }
 }
 require '../controllers/access.php';
-$oPermService=new CLpermService($servername, $db, $username, $password);
+$oPermService=new ClPermService($servername, $db, $username, $password);
 $oPermService->getPermissions();

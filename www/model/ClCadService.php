@@ -1,6 +1,6 @@
 <?php
 
-class CLcadService
+class ClCadService
 {
     protected PDO $oPdo;
 

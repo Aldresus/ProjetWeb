@@ -92,7 +92,7 @@ require '../controllers/inscriptionController.php';
         </div>
     </div>
 </div>
-</body>
+
 
 
 <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 mb-0 mt-5 border-top bg-dark text-white">
@@ -106,4 +106,5 @@ require '../controllers/inscriptionController.php';
         <li class="ms-3"><a class="text-muted" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="fa-brands fa-facebook-f"></i></a></li>
     </ul>
 </footer>
+</body>
 </html>
