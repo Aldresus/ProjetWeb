@@ -19,7 +19,21 @@ class ClUserService extends ClCadService
         $sql->bindParam(6, $centerID, PDO::PARAM_INT);
         $sql->bindParam(7, $roleID, PDO::PARAM_INT);
         return $sql->execute();
+    }
 
+    public function getStudents(int $perPage, int $page)
+    {
+        $start=(($page-1)*$perPage);
+        $query=$this->oPdo->prepare("SELECT t.userID, t.firstName, t.lastName, Promotions.promotion, Cities.cityName, Users.firstName as pilotFirstname, Users.lastname as pilotLastname FROM Users t
+        JOIN are ON t.userID = are.userID 
+        JOIN Promotions ON t.promotionID=Promotions.promotionID 
+        JOIN Users ON Promotions.userID=Users.userID
+        JOIN Cities ON Cities.cityID=Users.cityID LIMIT ?, ?;");
+        $query->bindParam(1, $start, PDO::PARAM_INT);
+        $query->bindParam(2, $perPage, PDO::PARAM_INT);
+        $query->execute();
+
+        return $query->fetchAll(PDO::FETCH_ASSOC);
     }
 }
 
