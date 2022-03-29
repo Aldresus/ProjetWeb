@@ -35,5 +35,20 @@ class ClUserService extends ClCadService
 
         return $query->fetchAll(PDO::FETCH_ASSOC);
     }
+    public function getUsers(string $role, int $perPage, int $page)
+    {
+        $start=(($page-1)*$perPage);
+        $query=$this->oPdo->prepare("SELECT t.userID, t.firstName, t.lastName, Cities.cityName FROM Users t
+        JOIN Cities ON Cities.cityID=t.cityID
+        JOIN are ON t.userID = are.userID 
+        JOIN Role ON Role.roleID=are.roleID
+        WHERE Role.roleName=? LIMIT ?, ?;");
+        $query->bindParam(1, $role, PDO::PARAM_STR);
+        $query->bindParam(2, $start, PDO::PARAM_INT);
+        $query->bindParam(3, $perPage, PDO::PARAM_INT);
+        $query->execute();
+
+        return $query->fetchAll(PDO::FETCH_ASSOC);
+    }
 }
 
