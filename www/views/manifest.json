@@ -1,0 +1,51 @@
+{
+  "name": "STAJ",
+  "short_name": "STAJ",
+  "lang": "fr",
+  "start_url": "index.php",
+  "display": "fullscreen",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "icons": [{
+    "src": "../assets/staj72x72.png",
+    "type": "image/png",
+    "sizes": "72x72"
+},
+    {
+      "src": "../assets/staj96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "../assets/staj128x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "../assets/staj144x144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "../assets/staj152x152.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "../assets/staj192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "../assets/staj384x384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "../assets/staj512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+]
+}

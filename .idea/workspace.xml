@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -22,52 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a84814c1-abdd-474e-b8b9-7a8e5f998fa4" name="Default Changelist" comment="authentification opérationelle">
-      <change afterPath="$PROJECT_DIR$/www/Scripts/inscription.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/controllers/companyController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/controllers/inscriptionController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/model/CLcadService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/model/CLcityService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/model/CLcompanyService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/model/CLpromotionService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/model/CLroleService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/model/CLuserService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/views/profil.php" afterDir="false" />
+    <list default="true" id="a84814c1-abdd-474e-b8b9-7a8e5f998fa4" name="Default Changelist" comment="wish list responsive">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/controllers/access.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/controllers/access.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/controllers/authController.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/controllers/authController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/model/CLauthService.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/model/CLauthService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/model/CLpermService.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/model/CLpermService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/model/apply.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/model/company.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/model/grades.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/model/localities.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/model/offer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/model/permissions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/model/promotions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/model/role.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/model/users.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/views/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/Contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/views/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/views/entreprise.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/entreprises.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/views/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/inscription.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/views/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/navbar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
-    <execution />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -78,22 +43,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
-  </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.1" />
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="26VOpurWufaaradaCce5OtLb40h" />
   <component name="ProjectLevelVcsManager">
@@ -105,13 +57,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="mariadb&#10;mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/www/model" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -119,22 +69,23 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/www/model" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/www/model" />
-      <recent name="$PROJECT_DIR$/www/controllers" />
-      <recent name="$PROJECT_DIR$/www/views" />
-      <recent name="$PROJECT_DIR$/www/Scripts" />
-      <recent name="$PROJECT_DIR$/www/Content" />
+      <recent name="$PROJECT_DIR$/www/assets" />
+      <recent name="$PROJECT_DIR$/www" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Eval_entreprise.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProjetWeb/www/views/Eval_entreprise.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.Eval_entreprise.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -146,12 +97,9 @@
       <updated>1647505473793</updated>
       <workItem from="1647505475825" duration="34000" />
       <workItem from="1647505648146" duration="4551000" />
-      <workItem from="1647870260182" duration="1175000" />
-      <workItem from="1647875458734" duration="575000" />
-      <workItem from="1647938536720" duration="29017000" />
-      <workItem from="1648115194962" duration="1319000" />
-      <workItem from="1648127172195" duration="9810000" />
-      <workItem from="1648196295824" duration="59605000" />
+      <workItem from="1647592228799" duration="6570000" />
+      <workItem from="1648452598672" duration="8236000" />
+      <workItem from="1648536553645" duration="12548000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouts de la structure de base">
       <created>1647505838701</created>
@@ -167,105 +115,49 @@
       <option name="project" value="LOCAL" />
       <updated>1647510943068</updated>
     </task>
-    <task id="LOCAL-00003" summary="Finition de la page d'acceuil">
-      <created>1647609520939</created>
+    <task id="LOCAL-00003" summary="evaluation d'une entreprise il manque bien sur du js et autre et ça n'a pas été adapté à l'avis de sylvain">
+      <created>1648453230413</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1647609520939</updated>
+      <updated>1648453230413</updated>
     </task>
-    <task id="LOCAL-00004" summary="Finition de la page d'acceuil">
-      <created>1647610053751</created>
+    <task id="LOCAL-00004" summary="comparaison des offres il manque bien sur du js et autre et ça n'a pas été adapté à l'avis de sylvain">
+      <created>1648453536989</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1647610053751</updated>
+      <updated>1648453536990</updated>
     </task>
-    <task id="LOCAL-00005" summary="Finition de la page d'acceuil">
-      <created>1647610232130</created>
+    <task id="LOCAL-00005" summary="j'ai arrangée une faute d'othographe">
+      <created>1648453611242</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1647610232130</updated>
+      <updated>1648453611242</updated>
     </task>
-    <task id="LOCAL-00006" summary="ajout des pages de gestion des droits">
-      <created>1647610425774</created>
+    <task id="LOCAL-00006" summary="j'ai arrangée une faute d'othographe">
+      <created>1648455089023</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1647610425774</updated>
+      <updated>1648455089023</updated>
     </task>
-    <task id="LOCAL-00007" summary="Ajout des différentes redirections dans le header + mise en forme de la page Contact.html">
-      <created>1647617371706</created>
+    <task id="LOCAL-00007" summary="comparaison entreprise et comparaison offre responsive">
+      <created>1648455495520</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1647617371706</updated>
+      <updated>1648455495520</updated>
     </task>
-    <task id="LOCAL-00008" summary="Amélioration de la navbar + page à propos">
-      <created>1647807093099</created>
+    <task id="LOCAL-00008" summary="wish list responsive">
+      <created>1648456163060</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1647807093099</updated>
+      <updated>1648456163060</updated>
     </task>
-    <task id="LOCAL-00009" summary="Changement de la sémantique de la navbar et ajout du mode sandwich pour device mobile">
-      <created>1647808395022</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1647808395022</updated>
-    </task>
-    <task id="LOCAL-00010" summary="mise en page de la page d'inscription">
-      <created>1647813542992</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1647813542992</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Préparation du terrain pour le backend">
-      <created>1647941285103</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1647941285103</updated>
-    </task>
-    <task id="LOCAL-00012" summary="creation de classes de mappage">
-      <created>1647990372811</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1647990372811</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Ajout de requêtes dans les classes de mappage">
-      <created>1648104875326</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1648104875326</updated>
-    </task>
-    <task id="LOCAL-00014" summary="ajout des bases de système de connection">
-      <created>1648139304726</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1648139304726</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Avancement sur le cad">
-      <created>1648196250322</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1648196250322</updated>
-    </task>
-    <task id="LOCAL-00016" summary="authentification opérationelle">
-      <created>1648393263097</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1648393263097</updated>
-    </task>
-    <option name="localTasksCounter" value="17" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +168,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="PWA" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -286,29 +190,11 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Ajouts de la structure de base" />
     <MESSAGE value="Ajout du header et du footer de l'accueil" />
-    <MESSAGE value="Finition de la page d'acceuil" />
-    <MESSAGE value="ajout des pages de gestion des droits" />
-    <MESSAGE value="Ajout des différentes redirections dans le header + mise en forme de la page Contact.html" />
-    <MESSAGE value="Amélioration de la navbar + page à propos" />
-    <MESSAGE value="Changement de la sémantique de la navbar et ajout du mode sandwich pour device mobile" />
-    <MESSAGE value="mise en page de la page d'inscription" />
-    <MESSAGE value="Préparation du terrain pour le backend" />
-    <MESSAGE value="creation de classes de mappage" />
-    <MESSAGE value="Ajout de requêtes dans les classes de mappage" />
-    <MESSAGE value="ajout des bases de système de connection" />
-    <MESSAGE value="Avancement sur le cad" />
-    <MESSAGE value="authentification opérationelle" />
-    <option name="LAST_COMMIT_MESSAGE" value="authentification opérationelle" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/www/views/entreprises.php</url>
-          <line>16</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="evaluation d'une entreprise il manque bien sur du js et autre et ça n'a pas été adapté à l'avis de sylvain" />
+    <MESSAGE value="comparaison des offres il manque bien sur du js et autre et ça n'a pas été adapté à l'avis de sylvain" />
+    <MESSAGE value="j'ai arrangée une faute d'othographe" />
+    <MESSAGE value="comparaison entreprise et comparaison offre responsive" />
+    <MESSAGE value="wish list responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="wish list responsive" />
   </component>
 </project>
