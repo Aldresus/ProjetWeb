@@ -31,32 +31,27 @@ if(isset($_POST)){
     if($action=='student'){
         $users = $oUserService->getStudents($perPage, $page);
         foreach ($users as $user) {
-            echo "<div class='col-sm-12 col-lg-3 col-md-6 border rounded m-3'>
-                 <h4 class='text-center mb-3 text-dark'>${user['entreprise']}</h4>
+            echo "<div class='col-sm-12 col-lg-3 col-md-6 border rounded'>
+                 <h4 class='text-center mb-3 text-dark'>${user['firstName']} ${user['lastName']}</h4>
                  <div class='container'>
                      <div class='row'>
                          <div class='row'>
                              <div class='col-12'>
-                                 <p class='text-center'><strong>${user['activite']}</strong></p> 
+                                 <p class='text-center'><strong>${user['promotion']}</strong></p> 
                              </div> 
                          </div> 
                          <div class='row'> 
                              <div class='col-12'>
-                                 <p class='text-center'>${user['CP']}, ${user['nbRue']}${user['rue']}, ${user['ville']}</p> 
+                                 <p class='text-center'>Pilote : ${user['pilotFirstname']} ${user['pilotLastname']}</p> 
                              </div> 
                          </div> 
                          <div class='row'> 
                              <div class='col-12'>
-                                 <p class='text-center mt-0 mb-3'>Étudiants précédemment acceptés : <strong>${user['stagiairesEnTout']}</strong></p>
+                                 <p class='text-center mt-0 mb-3'>Centre : <strong>${user['cityName']}</strong></p>
                              </div>
                          </div>
                          <div class='row'>
                              <div class='col-12'>
-                             </div>
-                         </div>
-                         <div class='row'>
-                             <div class='col-12'>
-                                 <p class='text-center'>Niveau de confiance : <strong>${user['confiance']}</strong></p>
                              </div>
                          </div>
                      </div>

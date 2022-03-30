@@ -2,6 +2,26 @@
 
 class ClCompanyService extends ClCadService
 {
+    public function getCompany():array
+    {
+        $query=$this->oPdo->prepare("SELECT * FROM Company");
+        $query->execute();
+
+        return $query->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public function getCompaniesNames():array
+    {
+        $query=$this->oPdo->prepare("SELECT companyID, companyName FROM Company");
+        $query->execute();
+
+        $companies=array();
+        foreach ($query->fetchAll() as $row) {
+            $companies["${row['companyName']}"]=$row['companyID'];
+        }
+        return $companies;
+    }
+
     public function getCompanies(int $perPage, int $page)
     {
         $start=(($page-1)*$perPage);

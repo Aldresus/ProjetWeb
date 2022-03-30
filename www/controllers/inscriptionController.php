@@ -16,7 +16,7 @@ if(isset($_POST['submit'])){
     $oUserService = new ClUserService($servername, $db, $username, $password);
     print_r($_POST);
     $oUserService->addUser($_POST['firstname'], $_POST['lastname'], $_POST['email'], $_POST['password'], $promotion, $_POST['center'], $_POST['role']);
-    header('Location: ../views/inscription.php?success=1');
+    header('Location: ../views/inscriptionEtudiant.php?success=1');
 }
 else
 {
