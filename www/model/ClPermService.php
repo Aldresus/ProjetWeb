@@ -1,5 +1,4 @@
 <?php
-require 'ClCadService.php';
 class ClPermService extends ClCadService
 {
 
@@ -22,6 +21,17 @@ class ClPermService extends ClCadService
         $query->execute();
         $perms=array();
 
+        foreach ($query->fetchAll(PDO::FETCH_ASSOC) as $row) {
+            $perms[]=$row['permissionID'];
+        }
+        return $perms;
+    }
+    public function getPermissionsFromRole($roleID):array
+    {
+        $query=$this->oPdo->prepare("SELECT permissionID FROM has WHERE roleID=?;");
+        $query->bindParam(1,$roleID);
+        $query->execute();
+        $perms=array();
         foreach ($query->fetchAll(PDO::FETCH_ASSOC) as $row) {
             $perms[]=$row['permissionID'];
         }

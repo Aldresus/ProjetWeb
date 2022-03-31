@@ -19,7 +19,7 @@ print_r($_COOKIE);
 <!-- Contenu du site -->
 <div class="bg-dark text-light">
 <div class="container border-bottom mb-5 pt-5 pb-5">
-    <h1 class="mb-3">CESI Emploi</h1>
+    <h1 class="mb-3">CESI Staj</h1>
     <div class="row">
 
     <p class="col-md-6 col-lg-6 col-sm-12">
@@ -39,48 +39,10 @@ print_r($_COOKIE);
 <div class="container">
     <H4 class="text-center mb-4 pb-5 text-decoration-underline">Découvrez nos offres les plus populaires&#8239:</H4>
     <div class="row">
-        <div class="col-sm-12 col-lg-3 col-md-3 border-bottom mb-3">
-            <h4 class="text-center mb-3">A2, A5 - Developpeur web</h4>
-            <div class="container">
-                <div class="row">
-                    <p class="col-sm-6 col-lg-10 col-md-12 mb-0"><strong>Campus CESI</strong></p>
-                    <p class="col-md-12 col-lg-2 col-sm-6 text-md-end text-lg-end text-sm-start mt-0 mb-3 highGrade"><strong>80</strong></p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia metus vel orci blandit, eget commodo libero auctor. Pellentesque tristique libero leo, quis cursus lorem finibus id. In enim nibh, vehicula sit amet rutrum id, dictum sit amet nulla.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-lg-3 col-md-3 border-bottom mb-3">
-            <h4 class="text-center mb-3">A2 - Developpeur logiciel</h4>
-            <div class="container">
-                <div class="row">
-                    <p class="col-sm-6 col-lg-10 col-md-12 mb-0"><strong>Quelque part</strong></p>
-                    <p class="col-md-12 col-lg-2 col-sm-6 text-md-end text-lg-end text-sm-start mt-0 mb-3 lowGrade"><strong>30</strong></p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia metus vel orci blandit, eget commodo libero auctor. Pellentesque tristique libero leo, quis cursus lorem finibus id. In enim nibh, vehicula sit amet rutrum id, dictum sit amet nulla.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-lg-3 col-md-3 border-bottom mb-3">
-            <h4 class="text-center mb-3"> A2 - Ingénieur café</h4>
-            <div class="container">
-                <div class="row">
-                    <p class="col-sm-6 col-lg-10 col-md-12 mb-0"><strong>Entreprise</strong></p>
-                    <p class="col-md-12 col-lg-2 col-sm-6 text-md-end text-lg-end text-sm-start mt-0 mb-3 mediumGrade"><strong>50</strong></p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia metus vel orci blandit, eget commodo libero auctor. Pellentesque tristique libero leo, quis cursus lorem finibus id. In enim nibh, vehicula sit amet rutrum id, dictum sit amet nulla.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-lg-3 col-md-3 border-bottom mb-3">
-            <h4 class="text-center mb-3">A3 - Technicien réseau</h4>
-            <div class="container">
-                <div class="row">
-                    <p class="col-sm-6 col-lg-10 col-md-12 mb-0"><strong>Datacenter</strong></p>
-                    <p class="col-md-12 col-lg-2 col-sm-6 text-md-end text-lg-end text-sm-start mt-0 mb-3 lowGrade"><strong>10</strong></p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia metus vel orci blandit, eget commodo libero auctor. Pellentesque tristique libero leo, quis cursus lorem finibus id. In enim nibh, vehicula sit amet rutrum id, dictum sit amet nulla.</p>
-                </div>
-            </div>
-        </div>
+        <?php
+            require '../controllers/indexController.php';
+        ?>
     </div>
-
 </div>
 </body>
 

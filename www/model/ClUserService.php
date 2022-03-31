@@ -21,6 +21,15 @@ class ClUserService extends ClCadService
         return $sql->execute();
     }
 
+    public function deleteUser($userID): bool
+    {
+        $sql=$this->oPdo->prepare("DELETE FROM are WHERE userID = ?; 
+            DELETE FROM Users WHERE userID = ?;");
+        $sql->bindParam(1, $userID, PDO::PARAM_INT);
+        $sql->bindParam(2, $userID, PDO::PARAM_INT);
+        return $sql->execute();
+    }
+
     public function getStudents(int $perPage, int $page)
     {
         $start=(($page-1)*$perPage);
@@ -35,6 +44,7 @@ class ClUserService extends ClCadService
 
         return $query->fetchAll(PDO::FETCH_ASSOC);
     }
+
     public function getUsers(string $role, int $perPage, int $page)
     {
         $start=(($page-1)*$perPage);
@@ -49,6 +59,19 @@ class ClUserService extends ClCadService
         $query->execute();
 
         return $query->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public function getUserByID(int $userID)
+    {
+        $query=$this->oPdo->prepare("SELECT t.userID, t.firstName, t.lastName, Cities.cityName FROM Users t
+        JOIN Cities ON Cities.cityID=t.cityID
+        JOIN are ON t.userID = are.userID 
+        JOIN Role ON Role.roleID=are.roleID
+        WHERE t.userID=?;");
+        $query->bindParam(1, $userID, PDO::PARAM_INT);
+        $query->execute();
+
+        return $query->fetchAll(PDO::FETCH_ASSOC)[0];
     }
 }
 

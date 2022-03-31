@@ -1,5 +1,6 @@
 <?php
 require 'access.php';
+require '../model/ClCadService.php';
 require '../model/ClAuthService.php';
 $auth = new ClAuthService($servername, $db, $username, $password);
 

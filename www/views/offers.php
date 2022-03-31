@@ -12,15 +12,14 @@
 include 'navbar.php';
 ?>
 <body>
-    <div class="container mb-5 mt-5">
-        <div class="row">
+<div class="container mb-5 mt-5">
+    <div class="row">
         <?php
-            $_POST['action'] = 'student';
-
-            require '../controllers/usersController.php';
+        $_POST['action']="getOffers";
+        require '../controllers/offerController.php';
         ?>
-        </div>
     </div>
+</div>
 </body>
 </html>
 <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 mb-0 mt-5 border-top bg-dark text-white fixed-bottom">
