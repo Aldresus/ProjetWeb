@@ -38,13 +38,6 @@ if($_POST['part']=='buttons'){
             </div>';
     }
 
-    //postuler offre
-    if (in_array(29, $perms)) {
-        echo'<div class="col-md-2 col-lg-2 col-sm-6  p-1 d-grid gap-2">
-                <a class="btn btn-primary btn-warning m-0 p-3" href="offers.php">Voir offres</a>
-            </div>';
-    }
-
     //ajouter/supprimer offre wishlist
     if (!empty(array_intersect($perms, array(27, 28)))) {
         echo'<div class="col-md-2 col-lg-2 col-sm-6  p-1 d-grid gap-2">
@@ -63,6 +56,13 @@ if($_POST['part']=='buttons'){
     if (in_array(9, $perms)) {
         echo'<div class="col-md-2 col-lg-2 col-sm-6  p-1 d-grid gap-2">
                 <a class="btn btn-primary btn-warning m-0 p-3" href="inscriptionOffre.php">Ajouter offre</a>
+            </div>';
+    }
+
+    //peut ajouter entreprise
+    if (in_array(3, $perms)) {
+        echo'<div class="col-md-2 col-lg-2 col-sm-6  p-1 d-grid gap-2">
+                <a class="btn btn-primary btn-warning m-0 p-3" href="inscriptionEntreprise.php">Ajouter entreprise</a>
             </div>';
     }
 
@@ -102,8 +102,8 @@ elseif($_POST['part']=='offers'){
 
         $oSmarty->assign('offers', $offers);
         echo '<div class="container">
-                    <H4 class="text-center my-4 pb-5 ">Ces offres correspondent à votre profil</H4>
-                    <div class="row">';
+                    <H4 class="text-center my-4 pb-3">Ces offres correspondent à votre profil :</H4>
+                    <div class="row mb-5">';
         $oSmarty->display("../templates/offersList.tpl");
         echo'</div>';
     }
