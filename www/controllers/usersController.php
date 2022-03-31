@@ -1,6 +1,6 @@
 <?php
 
-function affichage(array $users, $action) {
+function affichage(array $users, $action, $canEdit) {
     foreach ($users as $user) {
         echo "<div class='col-sm-12 col-lg-3 col-md-6 border rounded'>
             <h4 class='text-center mb-3 text-dark mt-3'>${user['firstName']} <strong>${user['lastName']}</strong></h4>
@@ -11,31 +11,48 @@ function affichage(array $users, $action) {
                             <p class='text-center mt-0 mb-3'>Centre : <strong>${user['cityName']}</strong></p>
                         </div>
                     </div>
-                </div>
-                <form method='POST' action='../controllers/usersController.php'>
-                        <input type='hidden' name='id' value='${user['userID']}'>
-                        <div class='row text-center mb-3'>
-                            <div class='col-6'>
-                                <button name='action' type='submit' class='form-control' value='edit$action'>
-                                    <i class='fa-solid fa-pen-to-square fa-xl text-success'></i>
-                                </button>
-                            </div>
-                            <div class='col-6'>
-                                <button name='action' type='submit' class='form-control' value='delete$action'>
-                                    <i class='fa-solid fa-trash-can fa-xl text-danger'></i>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
+                </div>";
+                if($canEdit) {
+                    echo "<form method='POST' action='../controllers/usersController.php'>
+                            <input type='hidden' name='id' value='${user['userID']}'>
+                                <div class='row text-center mb-3'>
+                                    <div class='col-6'>
+                                        <button name='action' type='submit' class='form-control' value='edit$action'>
+                                            <i class='fa-solid fa-pen-to-square fa-xl text-success'></i>
+                                        </button>
+                                    </div>
+                                    <div class='col-6'>
+                                        <button name='action' type='submit' class='form-control' value='delete$action'>
+                                            <i class='fa-solid fa-trash-can fa-xl text-danger'></i>
+                                        </button>
+                                    </div>
+                                </div>";
+            }
+            echo"</form>
             </div>
         </div>";
     }
 }
+require_once '../model/ClCadService.php';
+require_once '../model/ClPermService.php';
+
+$role=$_COOKIE['role'];
+$userID=$_COOKIE['userID'];
+$canEdit=false;
+
+require_once '../model/ClPermService.php';
+$oPermService = new ClPermService($servername, $db, $username, $password);
+$perms=$oPermService->getPermissionsFromRole($role);
+
+if (!empty(array_intersect($perms, array(14, 18, 23)))) {
+    $canEdit=true;
+}
+
+
 
 if(isset($_POST)){
     $action=$_POST['action'];
     require 'access.php';
-    require '../model/ClCadService.php';
     require '../model/ClUserService.php';
 
     $page = $_GET['page'] ?? 1;
@@ -65,37 +82,39 @@ if(isset($_POST)){
                                  <p class='text-center mt-0 mb-3'>Centre : <strong>${user['cityName']}</strong></p>
                              </div>
                          </div>
-                     </div>
-                     <form method='POST' action='../controllers/usersController.php'>
-                        <input type='hidden' name='id' value='${user['userID']}'>
-                        <div class='row text-center mb-3'>
-                            <div class='col-6'>
-                                <button name='action' type='submit' class='form-control' value='editstudent'>
-                                    <i class='fa-solid fa-pen-to-square fa-xl text-success'></i>
-                                </button>
-                            </div>
-                            <div class='col-6'>
-                                <button name='action' type='submit' class='form-control' value='deletestudent'>
-                                    <i class='fa-solid fa-trash-can fa-xl text-danger'></i>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                 </div>
-             </div>";
+                     </div>";
+                     if($canEdit) {
+                    echo "<form method='POST' action='../controllers/usersController.php'>
+                            <input type='hidden' name='id' value='${user['userID']}'>
+                                <div class='row text-center mb-3'>
+                                    <div class='col-6'>
+                                        <button name='action' type='submit' class='form-control' value='edit$action'>
+                                            <i class='fa-solid fa-pen-to-square fa-xl text-success'></i>
+                                        </button>
+                                    </div>
+                                    <div class='col-6'>
+                                        <button name='action' type='submit' class='form-control' value='delete$action'>
+                                            <i class='fa-solid fa-trash-can fa-xl text-danger'></i>
+                                        </button>
+                                    </div>
+                                </div>";
+            }
+            echo"</form>
+            </div>
+        </div>";
         }
     }
     elseif($action=='delegue'){
         $users = $oUserService->getUsers("Delegue",$perPage, $page);
-        affichage($users, $action);
+        affichage($users, $action, $canEdit);
     }
     elseif($action=='pilote'){
         $users = $oUserService->getUsers("Pilote", $perPage, $page);
-        affichage($users, $action);
+        affichage($users, $action, $canEdit);
     }
     elseif($action=='admin'){
         $users = $oUserService->getUsers("Admin", $perPage, $page);
-        affichage($users, $action);
+        affichage($users, $action, $canEdit);
     }
     elseif($action=='deletestudent'){
         $users = $oUserService->deleteUser($_POST['id']);

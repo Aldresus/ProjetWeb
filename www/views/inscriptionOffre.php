@@ -13,6 +13,10 @@ include 'navbar.php';
 require '../controllers/offerController.php';
 ?>
 <main>
+    <?php
+        $_POST['requiredPerm']=9;
+        require_once '../controllers/verifierController.php';
+    ?>
 <h1 class="ms-5 mt-5 mb-5">Création d'une offre :</h1>
 
 <div class="container mb-5 pb-5">
