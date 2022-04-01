@@ -48,7 +48,7 @@ if($_POST['part']=='buttons'){
     //peut evaluer entreprise
     if (in_array(5, $perms)) {
         echo'<div class="col-md-2 col-lg-2 col-sm-6  p-1 d-grid gap-2">
-                <a class="btn btn-primary btn-warning m-0 p-3" href="evaluateCompany.php">Noter une entreprise</a>
+                <a class="btn btn-primary btn-warning m-0 p-3" href="evalEntreprise.php">Noter une entreprise</a>
             </div>';
     }
 
@@ -59,10 +59,16 @@ if($_POST['part']=='buttons'){
             </div>';
     }
 
-    //peut ajouter entreprise
-    if (in_array(3, $perms)) {
+    //peut comparer entreprise
+    if (in_array(7, $perms)) {
         echo'<div class="col-md-2 col-lg-2 col-sm-6  p-1 d-grid gap-2">
-                <a class="btn btn-primary btn-warning m-0 p-3" href="inscriptionEntreprise.php">Ajouter entreprise</a>
+                <a class="btn btn-primary btn-warning m-0 p-3" href="comparaisonEntreprise.php">Comparer entreprises</a>
+            </div>';
+    }
+    //peut comparer offres
+    if (in_array(12, $perms)) {
+        echo'<div class="col-md-2 col-lg-2 col-sm-6  p-1 d-grid gap-2">
+                <a class="btn btn-primary btn-warning m-0 p-3" href="comparaisonOffre.php">Comparer offres</a>
             </div>';
     }
 
@@ -70,6 +76,12 @@ if($_POST['part']=='buttons'){
     if (in_array(3, $perms)) {
         echo'<div class="col-md-2 col-lg-2 col-sm-6  p-1 d-grid gap-2">
                 <a class="btn btn-primary btn-warning m-0 p-3" href="inscriptionEntreprise.php">Ajouter entreprise</a>
+            </div>';
+    }
+    //peut assigner des droits
+    if (in_array(21, $perms)) {
+        echo'<div class="col-md-2 col-lg-2 col-sm-6  p-1 d-grid gap-2">
+                <a class="btn btn-primary btn-warning m-0 p-3" href="assignationDroits.php">Assigner des droits</a>
             </div>';
     }
 }

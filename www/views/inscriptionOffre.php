@@ -23,7 +23,7 @@ require '../controllers/offerController.php';
     <div class="row">
         <?php
         if(isset($_GET['success'])){
-            echo '<H4 class="text-center text-success">Entreprise ajoutée</H4>';
+            echo '<H4 class="text-center text-success">Offre ajoutée</H4>';
         }
         ?>
         <div class="offset-md-1 col-md-10 offset-lg-3 col-lg-6 col-sm-12">

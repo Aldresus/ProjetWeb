@@ -14,7 +14,7 @@ if(isset($_GET['submit'])){
 
 elseif(isset($_POST['action']) and $_POST['action']=='getOffers'){
     $page = $_GET['page'] ?? 1;
-    $perPage = 10;
+    $perPage = 8;
     $users = $oClOfferService->getOffers($perPage, $page);
     foreach ($users as $user) {
         echo "<div class='col-sm-12 col-lg-3 col-md-3 border rounded mb-3'>

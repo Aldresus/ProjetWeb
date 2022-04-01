@@ -56,7 +56,7 @@ if(isset($_POST)){
     require '../model/ClUserService.php';
 
     $page = $_GET['page'] ?? 1;
-    $perPage = 10;
+    $perPage = 8;
     $oUserService = new ClUserService($servername, $db, $username, $password);
     $users=array();
 

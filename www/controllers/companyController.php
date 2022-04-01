@@ -5,13 +5,13 @@ require '../model/ClCompanyService.php';
 
 
 $page = $_GET['page'] ?? 1;
-$perPage = 10;
+$perPage = 8;
 $oCompanies = new ClCompanyService($servername, $db, $username, $password);
 $companies = $oCompanies->getCompanies($perPage, $page);
 
 foreach ($companies as $company) {
 
-    echo "<div class='col-sm-12 col-lg-3 col-md-6 border rounded m-3'>
+    echo "<div class='col-sm-12 col-lg-3 col-md-6 border rounded m-0 mt-2'>
             <h4 class='text-center mb-3 text-dark'>${company['entreprise']}</h4>
             <div class='container'>
                 <div class='row'>
